@@ -1,0 +1,45 @@
+直播软件：
+亿家直播 可回看卫视和中央台
+HDP直播 可回看卫视和中央台 购物频道多
+点播软件：
+CIBN 覆盖卫视回看类节目
+企鹅体育
+腾讯视频
+WeTV
+西瓜视频TV（鲜时光）
+TV影院
+i酷影视 无法筛选国家
+人人影视
+音乐：
+QQ音乐
+收听：
+喜马拉雅
+股票：
+大智慧
+工具：
+App Ops
+Shizuku
+File Commander
+v2rayNG
+Shadowsocks
+Shadowsocks TV
+启动器：
+ATV Launcher Pro
+其他：
+Kodi
+天气(com.macropinch.swan)破解版
+
+排除：
+超级直播
+电视家 可以回看 广告多 速度慢
+超级电视直播 看不了
+可乐电视 需登录
+
+adb shell settings put global captive_portal_https_url https://www.google.cn/generate_204
+
+adb shell settings put global captive_portal_http_url http://www.google.cn/generate_204
+
+adb shell
+appwidget grantbind --package ca.dstudio.atvlauncher.free --user 0
+
+adb shell sh /data/user_de/0/moe.shizuku.privileged.api/start.sh
